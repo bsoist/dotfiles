@@ -9,8 +9,10 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 # list of files/folders to symlink in homedir
-files="makesyms.sh profile bashrc vimrc gitconfig"
+files="makesyms.sh profile bashrc bash_aliases vimrc gitconfig'
 
+echo -n "Creating symlink for ~/bin"
+ln -s $dir/bin ~/bin 
 ##########
 
 # create dotfiles_old in homedir
