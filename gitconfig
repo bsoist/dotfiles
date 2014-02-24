@@ -1,0 +1,5 @@
+[user]
+	name = Bill Soistmann
+	email = github@whsjr.soistmann.com
+[credential]
+	helper = cache
