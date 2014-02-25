@@ -2,6 +2,13 @@
 " Bill Soistmann 
 " http://bsoi.st
 " <github@whsjr.soistmann.com>
+" tips from 
+" Steve Losh
+" http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+" and
+" Amir Salihefendic
+" http://amix.dk/vim/vimrc.html
+
 """"""""""""""""""
 " Essentials
 """"""""""""""""""
@@ -18,7 +25,7 @@ let g:mapleader = ","
 au FocusLost * :wa
 
 set undofile
-" set undodir=
+set undodir=~/vim.un
 set nobackup
 "set nowritebackup
 "set noswapfile
