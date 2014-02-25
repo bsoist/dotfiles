@@ -17,3 +17,7 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
 
+# apt-get shortcuts
+alias agi='apt-get install'
+alias sagi='sudo apt-get install'
+

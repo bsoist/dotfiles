@@ -1,0 +1,74 @@
+" vimrc_ui
+" my UI settings for vim
+" Bill Soistmann 
+" http://bsoi.st
+" <github@whsjr.soistmann.com>
+""""""""""""""""""
+set wildmenu
+set wildmode=list:longest
+set wildignore=*.o,*~,*.pyc
+set cmdheight=2
+set hidden
+set ruler
+set backspace=indent,eol,start
+set scrolloff=9
+set showmode
+set showcmd
+set cursorline
+set relativenumber
+set laststatus=2
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+
+"backspace behavior
+"set backspace=eol,start,indent
+"set whichwrap+=<,>,h,l
+
+"searching
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set showmatch
+set gdefault
+"set lazyredraw
+"set magic
+set mat=2
+nnoremap <leader><space> :noh<cr>
+"nnoremap <tab> %
+"vnoremap <tab> %
+"map <space> /
+"map <D-space> ?
+
+" no errors please
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+" show invisibles
+set list
+set listchars=tab:▸\ ,eol:¬
+
+"""""""""""""""""""
+" Colors and Fonts
+"""""""""""""""""""
+colorscheme vitamins
+set guifont=Monospace\ 14
+set encoding=utf-8
+set ffs=unix,dos,mac
+
+
+""""""""""""""""""""""""
+" Text, tab and indent 
+""""""""""""""""""""""""
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set autoindent
+set smartindent
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85

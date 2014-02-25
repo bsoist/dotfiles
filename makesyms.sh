@@ -1,19 +1,17 @@
 #!/bin/bash
 ############################
 # .makesyms.sh
-# # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+#  This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 # ############################
 
 ########## Variables
-
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 # list of files/folders to symlink in homedir
-files="makesyms.sh profile bashrc bash_aliases vimrc gitconfig'
+files="profile bashrc bash_aliases gitconfig simplenoterc vimrc vimrc_maps vimrc_ui"
 
 echo -n "Creating symlink for ~/bin"
-ln -s $dir/bin ~/bin 
-##########
+ln -s $dir/bin ~/bin
 
 # create dotfiles_old in homedir
 echo -n "Creating $olddir for backup of any existing dotfiles in ~ ..."
