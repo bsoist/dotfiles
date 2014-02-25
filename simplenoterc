@@ -1,1 +1,3 @@
 source ~/.simplenote_credentials
+
+let g:SimplenoteVertical=1
