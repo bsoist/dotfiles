@@ -58,6 +58,8 @@ inoremap jj <ESC>
 
 " shortcut to edit vimrc
 noremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+noremap <leader>evm <C-w><C-v><C-l>:e ${MYVIMRC}_maps<cr>
+noremap <leader>evu <C-w><C-v><C-l>:e ${MYVIMRC}_ui<cr>
 
 " split and move
 nnoremap <leader>w <C-w>v<C-w>l

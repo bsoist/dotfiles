@@ -17,7 +17,7 @@ set showcmd
 set cursorline
 set relativenumber
 set laststatus=2
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
 "backspace behavior
 "set backspace=eol,start,indent
@@ -52,7 +52,7 @@ set listchars=tab:▸\ ,eol:¬
 """""""""""""""""""
 " Colors and Fonts
 """""""""""""""""""
-colorscheme vitamins
+colorscheme mustang
 set guifont=Monospace\ 14
 set encoding=utf-8
 set ffs=unix,dos,mac
@@ -68,7 +68,7 @@ set tabstop=4
 set softtabstop=4
 set autoindent
 set smartindent
-set wrap
-set textwidth=79
+#set wrap
+#set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85

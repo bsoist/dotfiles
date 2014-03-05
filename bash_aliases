@@ -13,7 +13,7 @@ alias dotf='cd ~/dotfiles'
 
 # git shortcuts
 alias ga='git add'
-alias gc='git commit -m'
+alias gc='git commit'
 alias gp='git push origin master'
 
 # apt-get shortcuts

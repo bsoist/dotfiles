@@ -3,3 +3,7 @@
 	email = github@whsjr.soistmann.com
 [credential]
 	helper = cache
+[core]
+	editor = gvim
+[merge]
+	tool = gvimdiff
