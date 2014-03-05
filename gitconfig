@@ -4,6 +4,6 @@
 [credential]
 	helper = cache
 [core]
-	editor = gvim
+	editor = vi
 [merge]
 	tool = gvimdiff
