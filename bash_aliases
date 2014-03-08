@@ -12,6 +12,8 @@ alias gt='cd ~/Dropbox/support/Gigantech'
 alias gta='cd ~/projects/gigantech'
 alias dotf='cd ~/dotfiles'
 
+alias makeblogs='fargo2html -c'
+
 # git shortcuts
 alias ga='git add'
 alias gc='git commit'
