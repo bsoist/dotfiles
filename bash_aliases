@@ -11,8 +11,10 @@ alias SUM='cd ~/Dropbox/support/SUM'
 alias gt='cd ~/Dropbox/support/Gigantech'
 alias gta='cd ~/projects/gigantech'
 alias dotf='cd ~/dotfiles'
-
+alias cj='cd ~/jam'
 alias makeblogs='fargo2html -c'
+
+alias tasks='cd ~/Dropbox/TaskPaper'
 
 # git shortcuts
 alias ga='git add'
