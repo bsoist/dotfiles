@@ -61,11 +61,19 @@ set ffs=unix,dos,mac
 """"""""""""""""""""""""
 " Text, tab and indent 
 """"""""""""""""""""""""
-set expandtab
-set smarttab
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+
+let _curdir = getcwd()
+if _curdir =~ "favoritewords" || _curdir = "fw"
+    set tabstop=4
+    set sw=4
+else
+    set expandtab
+    set smarttab
+    set shiftwidth=4
+    set tabstop=4
+    set softtabstop=4
+endif
+
 set autoindent
 set smartindent
 "set wrap
