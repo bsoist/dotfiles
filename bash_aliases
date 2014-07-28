@@ -26,3 +26,7 @@ alias gits='git status'
 alias agi='apt-get install'
 alias sagi='sudo apt-get install'
 
+# project stuff
+alias fav='cd ~/projects/fw/fav*'
+alias bw='cd ~/projects/Bill*/BW*'
+alias gitf='cat ~/projects/fw/gitf*'
