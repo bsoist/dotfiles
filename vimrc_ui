@@ -53,7 +53,7 @@ set listchars=tab:▸\ ,eol:¬
 " Colors and Fonts
 """""""""""""""""""
 "colorscheme molokai
-set guifont=Monospace\ 14
+set guifont=Monospace\ 16
 set encoding=utf-8
 set ffs=unix,dos,mac
 
