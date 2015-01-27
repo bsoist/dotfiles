@@ -4,7 +4,8 @@ alias ..='cd ..'
 alias vim='gvim'
 alias db='cd ~/Dropbox'
 alias fargo='cd ~/Dropbox/Apps/Fargo'
-alias wcscs='cd ~/Dropbox/Apps/Cloud\ Cannon/wcscs.cloudvent.net'
+alias wcscs='cd ~/Dropbox/Apps/Cloud\ Cannon/WCSDemo'
+alias fanium='cd ~/Dropbox/Apps/Cloud\ Cannon/WellIfyouaskme.../fanium'
 alias supp='cd ~/Dropbox/support'
 alias angel='cd ~/Dropbox/support/STARTUPS'
 alias SUM='cd ~/Dropbox/support/SUM'
@@ -14,7 +15,7 @@ alias dotf='cd ~/dotfiles'
 alias cj='cd ~/jam'
 alias makeblogs='fargo2html -c'
 
-alias tasks='cd ~/Dropbox/TaskPaper'
+alias tasks='cd ~/Dropbox/Apps/Editorial/SimpleNoteNV'
 
 # git shortcuts
 alias ga='git add'
@@ -27,6 +28,7 @@ alias agi='apt-get install'
 alias sagi='sudo apt-get install'
 
 # project stuff
-alias fav='cd ~/projects/fw/fav*'
-alias bw='cd ~/projects/Bill*/BW*'
 alias gitf='cat ~/projects/fw/gitf*'
+
+# wcs stuff
+alias aA='python /home/bill/projects/hwFinder/addAssignment.py'

@@ -64,3 +64,6 @@ noremap <leader>evu <C-w><C-v><C-l>:e ${MYVIMRC}_ui<cr>
 " split and move
 nnoremap <leader>w <C-w>v<C-w>l
 
+"smile 
+nnoremap <leader>sm A <i class="fa fa-smile-o"></i>
+

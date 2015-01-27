@@ -47,3 +47,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 " simplenote.vim
 source ~/.simplenoterc
+
+" force md as markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
