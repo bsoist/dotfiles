@@ -15,8 +15,6 @@ alias dotf='cd ~/dotfiles'
 alias cj='cd ~/jam'
 alias makeblogs='fargo2html -c'
 
-alias tasks='cd ~/Dropbox/Apps/Editorial/SimpleNoteNV'
-
 # git shortcuts
 alias ga='git add'
 alias gc='git commit'
