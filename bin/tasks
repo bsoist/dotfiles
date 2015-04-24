@@ -1,2 +1,2 @@
-vim /home/bill/Dropbox/Apps/Editorial/*.taskpaper
+vim -g /home/bill/Dropbox/Apps/Editorial/*.taskpaper
 
