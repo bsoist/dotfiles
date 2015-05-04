@@ -65,7 +65,7 @@ set ffs=unix,dos,mac
 """"""""""""""""""""""""
 
 let _curdir = getcwd()
-if _curdir =~ "favoritewords" || _curdir =~ "fw"
+if _curdir =~ "SorryCardGame" || _curdir =~ "fw"
     set tabstop=4
     set sw=4
 else
