@@ -1,4 +1,6 @@
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
 # can use vi to get to vim
 alias vim='gvim'
