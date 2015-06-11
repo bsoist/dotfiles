@@ -13,7 +13,6 @@
 " Essentials
 """"""""""""""""""
 filetype off
-call pathogen#incubate()
 filetype plugin indent on
 set nocompatible
 set modelines=0
@@ -44,9 +43,6 @@ source ~/.vimrc_ui
 " NERD Tree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <C-n> :NERDTreeToggle<CR>
-
-" simplenote.vim
-source ~/.simplenoterc
 
 " force md as markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown

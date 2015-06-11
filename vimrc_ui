@@ -54,7 +54,7 @@ set listchars=tab:▸\ ,eol:¬
 """""""""""""""""""
 "colorscheme molokai
 "colorscheme mustang
-colorscheme vitamins
+"colorscheme vitamins
 set guifont=Monospace\ 16
 set encoding=utf-8
 set ffs=unix,dos,mac
