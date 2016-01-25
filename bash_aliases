@@ -3,7 +3,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # can use vi to get to vim
-alias vim='gvim'
+#alias vim='gvim'
 alias db='cd ~/Dropbox'
 alias fargo='cd ~/Dropbox/Apps/Fargo'
 alias wcscs='cd ~/Dropbox/Apps/Cloud\ Cannon/WCSDemo'
