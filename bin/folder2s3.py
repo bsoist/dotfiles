@@ -1,1 +1,0 @@
-/home/bill/projects/folder2s3/folder2s3.py
