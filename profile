@@ -21,4 +21,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-# dropbox start >/dev/null
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced

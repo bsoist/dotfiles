@@ -117,6 +117,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export EPICRC=~/.epicrc
 export ANSIBLE_CONFIG=/Users/bill/spensa/spensa_platform/ansible.cfg
 
+export PS1=$
