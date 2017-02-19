@@ -68,21 +68,16 @@ set ffs=unix,dos,mac
 """"""""""""""""""""""""
 
 let _curdir = getcwd()
-if _curdir =~ "SorryCardGame" || _curdir =~ "fw"
-    set tabstop=4
-    set sw=4
-else
-    set expandtab
-    set smarttab
-    set shiftwidth=4
-    set tabstop=4
-    set softtabstop=4
-endif
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 
 set autoindent
 set smartindent
 "set wrap
 "set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+set colorcolumn=80
 syntax on
