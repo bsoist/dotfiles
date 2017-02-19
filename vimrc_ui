@@ -4,6 +4,9 @@
 " http://bsoi.st
 " <github@whsjr.soistmann.com>
 """"""""""""""""""
+scriptencoding utf-8
+set encoding=utf-8
+
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.o,*~,*.pyc
