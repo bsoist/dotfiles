@@ -65,16 +65,18 @@ set ffs=unix,dos,mac
 """"""""""""""""""""""""
 
 let _curdir = getcwd()
-set expandtab
-set smarttab
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+"set expandtab
+"set smarttab
+"set shiftwidth=4
+"set tabstop=4
+"set softtabstop=4
 
 set autoindent
 set smartindent
 "set wrap
 "set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=80
+autocmd BufRead,BufNewFile *.c setlocal colorcolumn=80
+autocmd BufRead,BufNewFile *.py setlocal colorcolumn=80
+autocmd BufRead,BufNewFile *.js setlocal colorcolumn=80
 syntax on
