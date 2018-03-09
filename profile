@@ -21,5 +21,15 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -d "/Applications/calibre.app/Contents/console.app/Contents/MacOS/" ] ; then
+    PATH="/Applications/calibre.app/Contents/console.app/Contents/MacOS/:$PATH"
+fi
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/bill/google-cloud-sdk/path.bash.inc' ]; then source '/Users/bill/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/bill/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/bill/google-cloud-sdk/completion.bash.inc'; fi
