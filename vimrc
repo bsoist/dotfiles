@@ -12,6 +12,7 @@
 """"""""""""""""""
 " Essentials
 """"""""""""""""""
+execute pathogen#infect()
 filetype off
 filetype plugin indent on
 set nocompatible
@@ -46,3 +47,5 @@ map <C-n> :NERDTreeToggle<CR>
 
 " force md as markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+autocmd VimEnter * :NERDTree
