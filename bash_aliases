@@ -15,6 +15,7 @@ alias gta='cd ~/projects/gigantech'
 alias dotf='cd ~/dotfiles'
 alias cj='cd ~/jam'
 alias makeblogs='fargo2html -c'
+alias td='cd ~/Dropbox/Apps/Editorial;vim'
 
 # git shortcuts
 alias ga='git add'
