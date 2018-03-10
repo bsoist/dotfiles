@@ -49,3 +49,8 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 autocmd VimEnter * :NERDTree
+
+" ESLint adjustments
+let g:ale_sign_error = '●' " Less aggressive than the default '>>'
+let g:ale_sign_warning = '.'
+let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
