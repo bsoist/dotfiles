@@ -68,11 +68,11 @@ set ffs=unix,dos,mac
 """"""""""""""""""""""""
 
 let _curdir = getcwd()
-"set expandtab
-"set smarttab
-"set shiftwidth=4
-"set tabstop=4
-"set softtabstop=4
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 
 set autoindent
 set smartindent
