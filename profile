@@ -33,3 +33,7 @@ if [ -f '/Users/bill/google-cloud-sdk/path.bash.inc' ]; then source '/Users/bill
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/bill/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/bill/google-cloud-sdk/completion.bash.inc'; fi
+
+export PATH=/Library/PostgreSQL/10/bin/:$PATH
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
