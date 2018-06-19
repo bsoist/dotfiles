@@ -102,6 +102,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases_private
+fi
+
 if [ -f ~/dotfiles/git-completion.bash ]; then
     . ~/dotfiles/git-completion.bash
 fi
