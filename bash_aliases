@@ -14,3 +14,5 @@ alias gits='git status'
 alias agi='apt-get install'
 alias sagi='sudo apt-get install'
 
+alias jam='cd /Users/bill/Desktop/google/jam/2008'
+alias ojam='cd /Users/bill/OneDrive/code/code_jam/2008'

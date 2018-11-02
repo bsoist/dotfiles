@@ -37,3 +37,8 @@ if [ -f '/Users/bill/google-cloud-sdk/completion.bash.inc' ]; then source '/User
 export PATH=/Library/PostgreSQL/10/bin/:$PATH
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+# Setting PATH for Python 3.7
+# The original version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
